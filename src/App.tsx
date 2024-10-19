@@ -13,28 +13,34 @@ interface social {
 }
 
 const projects: Project[] = [
-    { name: "SyncArt", link: "https://sync-art.vercel.app/", rating: "6/10" },
+    { 
+        name: "SyncArt",
+        link: "https://sync-art.vercel.app/",
+        rating: "4/10" },
     {
         name: "Connectly",
         link: "https://connectly-nine.vercel.app/",
-        rating: "5/10",
+        rating: "3/10",
     },
-    {
-        name: "CGPA Calculator",
-        link: "https://cgpacal.vercel.app/",
-        rating: "1/10",
-    },
-    { name: "Portfolio", link: "https://sid-t1.vercel.app/", rating: "1/10" },
     {
         name: "Shop App",
         link: "https://shop-soumrnjn.netlify.app/",
-        rating: "3/10",
+        rating: "2/10",
     },
     {
         name: "Soumya's Blog",
         link: "https://blog-soumrnjn.netlify.app/",
         rating: "2/10",
     },
+    {
+        name: "CGPA Calculator",
+        link: "https://cgpacal.vercel.app/",
+        rating: "1/10",
+    },
+    { 
+        name: "Portfolio",
+        link: "https://sid-t1.vercel.app/",
+        rating: "1/10" },
     {
         name: "Tic Tac Toe",
         link: "https://tictactoe-soumrnjn.netlify.app",
